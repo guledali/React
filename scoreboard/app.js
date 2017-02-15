@@ -241,6 +241,9 @@
 // // To pass anyting you should do below on your rendercall
 // ReactDOM.render(<Application players={PLAYERS}/>, document.getElementById('container'));
 
+import React from "react";
+import ReactDOM from "react-dom";
+
 var PLAYERS = [
   {
     name: "Jim Hoskins",
